@@ -9,7 +9,7 @@ class NumberGuessingGame
         
         while (true)
         {
-            Console.Write($"Guess the number between 1-100 (Attempt {attempts}): ");
+            Console.Write($"Guess the number between 1-100! (Attempt {attempts}): ");
             string guessInput = Console.ReadLine();
             bool isInputValid = int.TryParse(guessInput, out int guess);
             
