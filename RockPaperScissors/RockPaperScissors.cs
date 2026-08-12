@@ -1,5 +1,3 @@
-// TODO: TABLE OF CONTENTS
-
 using System;
 
 class RockPaperScissors
@@ -33,9 +31,9 @@ class RockPaperScissors
     {
         int winOrLoss = num switch
         {
-            1 or -2 => 1, // WIN
-            -1 or 2 => 2, // LOSS
-            0 => 3  // TIE
+            1 or -2 => 1, // This is a win
+            -1 or 2 => 2, // This is a loss
+            0 => 3  // This is a tie
         };
         
         return winOrLoss;
